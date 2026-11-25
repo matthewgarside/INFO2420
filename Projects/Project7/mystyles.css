@@ -204,3 +204,40 @@ nav a:hover {
     font-weight: bold;
     color: #3F4B24;
 }
+
+#miniTribute {
+    background-color: #F3E8CF;
+    padding: 20px;
+    border: 1px solid #777B52;
+    overflow: auto;
+}
+
+#miniTribute img {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin: 0 20px 10px 0;
+}
+
+#miniTribute h3 {
+    margin-top: 0;
+}
+
+#miniTribute p {
+    text-align: left;
+}
+
+footer {
+    color: #FFFDF5;
+}
+
+footer a:link,
+footer a:visited {
+    color: #FFFDF5;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
