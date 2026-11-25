@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    background-color: #FFFDF5;
+    color: #24160F;
+}
+
+h1 {
+    text-align: center;
+    font-family: Century, serif;
+    font-variant: small-caps;
+    font-size: 160%;
+    color: #6B1F14;
+}
+
+h2 {
+    text-align: left;
+    font-family: Century, serif;
+    font-size: 130%;
+    color: #7A321B;
+	clear: both;
+}
+
+h3 {
+    text-align: left;
+    font-style: italic;
+    font-size: 110%;
+    color: #3F4B24;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    font-variant: small-caps;
+    line-height: 1.5;
+}
+
+.QA {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 105%;
+    text-decoration: underline;
+}
+
+a:link {
+    color: #7A1F0E;
+}
+
+a:visited {
+    color: #4B2E83;
+}
+
+a:hover {
+    color: #005A3C;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.floatright {
+    float: right;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #24160F;
+    font-size: 100%;
+}
+
+caption {
+    font-family: Century, serif;
+    font-size: 120%;
+    font-weight: bold;
+    background-color: #6B1F14;
+    color: #FFFDF5;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+th {
+    background-color: #3F4B24;
+    color: #FFFDF5;
+    text-align: left;
+    padding: 12px;
+}
+
+td {
+    background-color: #F4EBD8;
+    color: #24160F;
+    border: 1px solid #B7A790;
+    padding: 10px;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    width: 900px;
+    background-color: #777B52;
+    overflow: auto;
+}
+
+nav {
+    width: 30%;
+    float: right;
+}
+
+section {
+    width: 900px;
+    background-image: url('Images/2colback.jpg');
+    background-repeat: repeat-y;
+}
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+article p {
+    text-align: left;
+}
+
+footer {
+    width: 900px;
+    background-color: #777B52;
+    text-align: center;
+    padding: 15px 0;
+}
