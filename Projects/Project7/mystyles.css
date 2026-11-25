@@ -127,7 +127,9 @@ section {
 article {
     width: 800px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 20px;
+    background-color: #FFFDF5;
+    box-sizing: border-box;
 }
 
 article p {
@@ -139,4 +141,66 @@ footer {
     background-color: #777B52;
     text-align: center;
     padding: 15px 0;
+}
+
+#logo {
+    width: 140px;
+    float: left;
+    margin: 15px 10px;
+}
+
+#banner {
+    width: 440px;
+    float: left;
+    margin: 15px 10px;
+}
+
+header img {
+    height: auto;
+}
+
+nav a:link,
+nav a:visited {
+    display: block;
+    background-color: #3F4B24;
+    color: #FFFDF5;
+    text-align: center;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    padding: 8px;
+    margin: 5px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #FFFDF5;
+    color: #3F4B24;
+}
+
+#gallery {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#thumbnails img {
+    width: 100px;
+    height: 75px;
+    object-fit: cover;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid #777B52;
+}
+
+#theImage {
+    width: 400px;
+    height: auto;
+    margin-top: 15px;
+    border: 3px solid #777B52;
+}
+
+#gallery #bottomText {
+    text-align: center;
+    font-weight: bold;
+    color: #3F4B24;
 }

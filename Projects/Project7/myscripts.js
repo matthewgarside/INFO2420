@@ -5,7 +5,7 @@ logo1 = new Image
 logo2 = new Image
 if (document.images) {
     PrintButton1.src = "Images/print1.jpg";
-    PrintButton2.src = "Images/print2.jpg";
+    PrintButton2.src = "Images/Print2.jpg";
     logo1.src = "Images/logo1.jpg";
     logo2.src = "Images/logo2.jpg";
 }

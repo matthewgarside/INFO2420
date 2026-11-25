@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Native Cooking of Utah - Home</title>
     <link rel="stylesheet" href="mystyles.css">
     <script src="myscripts.js"></script>
 </head>
+
 <body>
 
     <div id="container">
 
         <header>
 
-            <img src="Images/logo1.jpg" alt="Native Cooking Logo" id="logo">
+            <img src="Images/logo1.jpg" 
+                alt="Native Cooking Logo" 
+                id="logo" 
+                onmouseover="this.src='Images/logo2.jpg'"
+                onmouseout="this.src='Images/logo1.jpg'">
 
-            <img src="Images/NativeCookingBanner_real.png" 
-                 alt="Native Cooking of Utah Banner" id="banner">
+            <img src="Images/NativeCookingBanner_real.png" alt="Native Cooking of Utah Banner" id="banner">
 
             <nav>
                 <a href="Home.html">Home</a>
@@ -34,9 +39,30 @@
                 <h1>Welcome to Native Cooking of Utah!</h1>
 
                 <p>If you love to cook like we do, you should enjoy
-                looking around this site. Take a look at our Recipes
-                and take the opportunity to complete our survey.</p>
+                    looking around this site. Take a look at our Recipes
+                    and take the opportunity to complete our survey.</p>
+                
+                    <h2>Explore Our Cooking Gallery</h2>
 
+                <div id="gallery">
+
+                    <div id="thumbnails">
+
+                        <img src="Images/thumbnails/Image1Sm.jpg" alt="Chef Cooking" onmouseover="swapImage(0)">
+
+                        <img src="Images/thumbnails/Image2Sm.jpg" alt="Dutch Oven" onmouseover="swapImage(1)">
+
+                        <img src="Images/thumbnails/Image3Sm.jpg" alt="Pasta" onmouseover="swapImage(2)">
+
+                        <img src="Images/thumbnails/Image4Sm.jpg" alt="Fresh Vegetables" onmouseover="swapImage(3)">
+
+                    </div>
+
+                    <img src="Images/fullsize/Image1Lg.jpg" alt="Cooking gallery" id="theImage">
+
+                    <p id="bottomText">Chef Cooking</p>
+
+                </div>
             </article>
 
         </section>
@@ -44,11 +70,12 @@
         <footer>
 
             <p>This web site has been created solely for
-            educational purposes.</p>
+                educational purposes.</p>
 
         </footer>
 
     </div>
 
 </body>
+
 </html>
